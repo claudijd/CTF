@@ -27,3 +27,11 @@ Lessons Learned:
 2.) Too many \n's will cause server to choke on Round 2
     - this was a common issue experienced by many mentioned in IRC (including myself)
 3.) You can make pretty animations with the board class
+
+Solution:
+
+1.) Parse the seed board from the wire
+2.) Advance the board X generations into the future
+3.) Write the new board to the wire (be careful not to send too many new lines)
+4.) Repeat steps until you have successfully completed 100 rounds of play
+5.) Read your congrats and key from the wire to solve
