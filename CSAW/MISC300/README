@@ -1,0 +1,22 @@
+# Background
+
+User is asked to visit:
+
+nc 128.238.66.216 45678
+
+Response is:
+
+#### Round 1: 64 Generations ####
+#####################
+#     *             #
+#   *   *           #
+#   *               #
+#  *        *       #
+#                   #
+#*     *            #
+# *           *     #
+#####################
+
+Hint: 
+
+http://en.wikipedia.org/wiki/Conways_Game_of_Life
