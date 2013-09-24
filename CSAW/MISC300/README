@@ -20,3 +20,10 @@ Response is:
 Hint: 
 
 http://en.wikipedia.org/wiki/Conways_Game_of_Life
+
+Lessons Learned:
+
+1.) Board boundaries don't wrap pac man style
+2.) Too many \n's will cause server to choke on Round 2
+    - this was a common issue experienced by many mentioned in IRC (including myself)
+3.) You can make pretty animations with the board class
