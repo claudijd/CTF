@@ -14,8 +14,10 @@ exploit1.c
 Running exploit1 in VM suggests exploit1 is the server at 31337
 
 exploit1.c shows a vulnerable function that reads 1020 bytes of
-a 1016 byte buffer.
+a 1016 byte buffer. Next we have a conditional with backdoor as
+the only requirement.  If backdoor is set to non-zero the key
+should be returned.
 
-This means all we need to do is just overrun the buffer with at
-minimum 1017 bytes and we'll get the flag, which resumably is
-stored server side in the "./key" file.
+All we need to do is overrun the buffer with at minimum 1017 
+bytes and we should get the flag, which presumably is stored 
+server side in the "./key" file.
